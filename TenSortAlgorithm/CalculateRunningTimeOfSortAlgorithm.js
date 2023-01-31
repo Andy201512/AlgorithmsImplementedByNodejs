@@ -3,7 +3,17 @@ const {
     PerformanceObserver
 } = require('perf_hooks');
 
-const SortAlgorithmName = ['SelectionSort'];
+const SortAlgorithmName = [ 'SelectionSort',
+                            'BubbleSort',
+                            'InsertionSort',
+                            'ShellSort',
+                            'MergeSort',
+                            'QuickSort',
+                            'HeapSort',
+                            'CountingSort',
+                            'BucketSort',
+                            'RadixSort',
+                        ];
 
 const unshortArray = Array.from({length: 10}, () => Math.floor(Math.random() * (9 - 0 + 1)) + 0);
 console.log(`unshortArray is`, unshortArray);
